@@ -8,7 +8,7 @@ import com.susheel.date.service.DateDifferenceProvider;
 
 public class TestCaseClassJunit {
 	@Test
-	public void testGetDateDifference1() 
+	public void testCaseForDateDifferences1() 
 	{
 		MyDate startDate = new MyDate(06, 04, 2011);
 		MyDate endDate = new MyDate(06, 04, 2011);
@@ -16,7 +16,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference2() 
+	public void testCaseForDateDifferences2() 
 	{
 		MyDate startDate = new MyDate(06, 04, 2011);
 		MyDate endDate = new MyDate(18, 04, 2011);
@@ -24,7 +24,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference3() 
+	public void testCaseForDateDifferences3() 
 	{
 		MyDate startDate = new MyDate(06, 04, 2011);
 		MyDate endDate = new MyDate(18, 05, 2011);
@@ -32,7 +32,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference4() 
+	public void testCaseForDateDifferences4() 
 	{
 		MyDate startDate = new MyDate(06, 04, 2011);
 		MyDate endDate = new MyDate(18, 06, 2011);
@@ -40,7 +40,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference5() 
+	public void testCaseForDateDifferences5() 
 	{
 		MyDate startDate = new MyDate(06, 04, 2011);
 		MyDate endDate = new MyDate(18, 12, 2011);
@@ -48,7 +48,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference6() 
+	public void testCaseForDateDifferences6() 
 	{
 		MyDate startDate = new MyDate(06, 04, 2011);
 		MyDate endDate = new MyDate(18, 12, 2012);
@@ -56,7 +56,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference7() 
+	public void testCaseForDateDifferences7() 
 	{
 		MyDate startDate = new MyDate(06, 04, 2011);
 		MyDate endDate = new MyDate(18, 12, 2013);
@@ -64,7 +64,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference8() 
+	public void testCaseForDateDifferences8() 
 	{
 		MyDate startDate = new MyDate(06, 04, 2011);
 		MyDate endDate = new MyDate(18, 12, 2113);
@@ -72,7 +72,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference9() 
+	public void testCaseForDateDifferences9() 
 	{
 		MyDate startDate = new MyDate(06, 04, 2011);
 		MyDate endDate = new MyDate(18, 12, 2413);
@@ -80,7 +80,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference10() 
+	public void testCaseForDateDifferences10() 
 	{
 		MyDate startDate = new MyDate(06, 04, 2011);
 		MyDate endDate = new MyDate(18, 12, 2813);
@@ -88,7 +88,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference11() 
+	public void testCaseForDateDifferences11() 
 	{
 		MyDate startDate = new MyDate(06, 01, 2011);
 		MyDate endDate = new MyDate(06, 03, 2011);
@@ -96,7 +96,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference12() 
+	public void testCaseForDateDifferences12() 
 	{
 		MyDate startDate = new MyDate(06, 01, 2012);
 		MyDate endDate = new MyDate(06, 03, 2012);
@@ -104,7 +104,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference13() 
+	public void testCaseForDateDifferences13() 
 	{
 		MyDate startDate = new MyDate(06, 02, 2012);
 		MyDate endDate = new MyDate(06, 03, 2012);
@@ -112,7 +112,7 @@ public class TestCaseClassJunit {
 	}
 	
 	@Test
-	public void testGetDateDifference14() 
+	public void testCaseForDateDifferences14() 
 	{
 		MyDate startDate = new MyDate(22, 01, 2012);
 		MyDate endDate = new MyDate(15, 11, 2012);
@@ -120,7 +120,7 @@ public class TestCaseClassJunit {
 	}
 
 	@Test
-	public void testGetDateDifference15() 
+	public void testCaseForDateDifferences15() 
 	{
 		MyDate startDate = new MyDate(06, 02, 2012);
 		MyDate endDate = new MyDate(06, 12, 2012);
