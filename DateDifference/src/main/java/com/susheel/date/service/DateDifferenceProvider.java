@@ -72,10 +72,7 @@ public class DateDifferenceProvider {
 		for(int month = startDate.getMm(); month < 12; month++) {
 			days += DAYS_IN_MONTH[month];
 		}
-		/*if(isFebruary(startDate) && isLeapYear(startDate.getYyyy())) {
-			System.out.println(startDate.getYyyy() + "true");
-			days++;
-		}*/
+		
 		return days;
 	}
 	
@@ -87,9 +84,7 @@ public class DateDifferenceProvider {
 			if(isLeapYear(year))
 				days++;
 		}
-		//for(int year = startDate.getYyyy(); year < endDate.getYyyy(); year++) {
-			days += 365 * years;
-		//}
+		
 		if(isLeapYear(startDate.getYyyy())) {
 			days++;
 		}
