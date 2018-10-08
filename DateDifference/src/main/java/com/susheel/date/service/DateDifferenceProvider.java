@@ -84,7 +84,7 @@ public class DateDifferenceProvider {
 			if(isLeapYear(year))
 				days++;
 		}
-		
+		days += 365 * years;
 		if(isLeapYear(startDate.getYyyy())) {
 			days++;
 		}
